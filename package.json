@@ -1,0 +1,20 @@
+{
+  "name": "clone",
+  "version": "1.0.0",
+  "description": "Easily clone html elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostffcode/html-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostffcode/html-clone/issues"
+  },
+  "homepage": "https://github.com/ghostffcode/html-clone#readme"
+}
