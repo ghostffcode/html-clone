@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="target">
+      <h2>The text above should be copied here</h2>
+    </div>
+    <button onclick="copy()">Copy Text</button>
+    <template>
+      <p>Something to be copied</p>
+    </template>
+    <script src="./index.js"></script>
+    <script>
+      function copy() {
+        clone('template').in().to('.target', true);
+      }
+    </script>
+  </body>
+</html>
